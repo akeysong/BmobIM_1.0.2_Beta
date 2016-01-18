@@ -1,0 +1,1149 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>BmobUserManager Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">BmobIM </a></h1>
+				<a id="developerHome" href="../index.html">Bmob</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">BmobUserManager Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/currentUserManager">&nbsp;&nbsp;&nbsp;&nbsp;+ currentUserManager</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addContactAfterAgreeWithUsername:block:">&nbsp;&nbsp;&nbsp;&nbsp;- addContactAfterAgreeWithUsername:block:</option>
+	
+	<option value="//api/name/agreeAddContactWithInvitation:block:">&nbsp;&nbsp;&nbsp;&nbsp;- agreeAddContactWithInvitation:block:</option>
+	
+	<option value="//api/name/bindDeviceToken:">&nbsp;&nbsp;&nbsp;&nbsp;- bindDeviceToken:</option>
+	
+	<option value="//api/name/checkAndBindDeviceToken:">&nbsp;&nbsp;&nbsp;&nbsp;- checkAndBindDeviceToken:</option>
+	
+	<option value="//api/name/countNearbyWithKey:location:block:">&nbsp;&nbsp;&nbsp;&nbsp;- countNearbyWithKey:location:block:</option>
+	
+	<option value="//api/name/currentUser">&nbsp;&nbsp;&nbsp;&nbsp;- currentUser</option>
+	
+	<option value="//api/name/deleteContactWithUid:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteContactWithUid:</option>
+	
+	<option value="//api/name/deleteContactWithUid:block:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteContactWithUid:block:</option>
+	
+	<option value="//api/name/loginWithUsername:password:block:">&nbsp;&nbsp;&nbsp;&nbsp;- loginWithUsername:password:block:</option>
+	
+	<option value="//api/name/logout">&nbsp;&nbsp;&nbsp;&nbsp;- logout</option>
+	
+	<option value="//api/name/queryCurrentContactArray:">&nbsp;&nbsp;&nbsp;&nbsp;- queryCurrentContactArray:</option>
+	
+	<option value="//api/name/queryNearbyWithKey:location:page:block:">&nbsp;&nbsp;&nbsp;&nbsp;- queryNearbyWithKey:location:page:block:</option>
+	
+	<option value="//api/name/queryUserByName:block:">&nbsp;&nbsp;&nbsp;&nbsp;- queryUserByName:block:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/currentUserManager">currentUserManager</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addContactAfterAgreeWithUsername:block:">addContactAfterAgreeWithUsername:block:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/agreeAddContactWithInvitation:block:">agreeAddContactWithInvitation:block:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/bindDeviceToken:">bindDeviceToken:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/checkAndBindDeviceToken:">checkAndBindDeviceToken:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/countNearbyWithKey:location:block:">countNearbyWithKey:location:block:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/currentUser">currentUser</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteContactWithUid:">deleteContactWithUid:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteContactWithUid:block:">deleteContactWithUid:block:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/loginWithUsername:password:block:">loginWithUsername:password:block:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/logout">logout</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/queryCurrentContactArray:">queryCurrentContactArray:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/queryNearbyWithKey:location:page:block:">queryNearbyWithKey:location:page:block:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/queryUserByName:block:">queryUserByName:block:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="BmobUserManager Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">BmobUserManager Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">BmobUserManager.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/currentUserManager">+&nbsp;currentUserManager</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addContactAfterAgreeWithUsername:block:">&ndash;&nbsp;addContactAfterAgreeWithUsername:block:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/agreeAddContactWithInvitation:block:">&ndash;&nbsp;agreeAddContactWithInvitation:block:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/bindDeviceToken:">&ndash;&nbsp;bindDeviceToken:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/checkAndBindDeviceToken:">&ndash;&nbsp;checkAndBindDeviceToken:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteContactWithUid:">&ndash;&nbsp;deleteContactWithUid:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteContactWithUid:block:">&ndash;&nbsp;deleteContactWithUid:block:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/currentUser">&ndash;&nbsp;currentUser</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/loginWithUsername:password:block:">&ndash;&nbsp;loginWithUsername:password:block:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/logout">&ndash;&nbsp;logout</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/queryCurrentContactArray:">&ndash;&nbsp;queryCurrentContactArray:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/queryUserByName:block:">&ndash;&nbsp;queryUserByName:block:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/countNearbyWithKey:location:block:">&ndash;&nbsp;countNearbyWithKey:location:block:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/queryNearbyWithKey:location:page:block:">&ndash;&nbsp;queryNearbyWithKey:location:page:block:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/currentUserManager" title="currentUserManager"></a>
+	<h3 class="subsubtitle method-title">currentUserManager</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>单例模式创建BmobUserManager实例</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (instancetype)currentUserManager</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>BmobUserManager实例</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>单例模式创建BmobUserManager实例</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BmobUserManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addContactAfterAgreeWithUsername:block:" title="addContactAfterAgreeWithUsername:block:"></a>
+	<h3 class="subsubtitle method-title">addContactAfterAgreeWithUsername:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>发送添加好友请求之后的对方回应：默认添加成功之后会存储到本地好友数据库中</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addContactAfterAgreeWithUsername:(NSString *)<em>targetName</em> block:(BmobObjectArrayResultBlock)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>targetName</em></dt>
+			<dd><p>好友名</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>列表</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>发送添加好友请求之后的对方回应：默认添加成功之后会存储到本地好友数据库中</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BmobUserManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/agreeAddContactWithInvitation:block:" title="agreeAddContactWithInvitation:block:"></a>
+	<h3 class="subsubtitle method-title">agreeAddContactWithInvitation:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>同意对方的添加好友请求:此方法默认在添加成功之后：1、更新本地好友数据库，2、向请求方发生同意tag请求，3、保存该好友到本地好友库</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)agreeAddContactWithInvitation:(BmobInvitation *)<em>message</em> block:(BmobBooleanResultBlock)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>message</em></dt>
+			<dd><p>邀请的信息</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>更新状态是否成功</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>同意对方的添加好友请求:此方法默认在添加成功之后：1、更新本地好友数据库，2、向请求方发生同意tag请求，3、保存该好友到本地好友库</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BmobUserManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/bindDeviceToken:" title="bindDeviceToken:"></a>
+	<h3 class="subsubtitle method-title">bindDeviceToken:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>绑定设备</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)bindDeviceToken:(NSData *)<em>deviceToken</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deviceToken</em></dt>
+			<dd><p>设备的DeviceToken</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>绑定设备</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BmobUserManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/checkAndBindDeviceToken:" title="checkAndBindDeviceToken:"></a>
+	<h3 class="subsubtitle method-title">checkAndBindDeviceToken:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>检测并绑定设备-用于每次登陆时候的检测操作：1、通知其他设备下线，2、若未绑定则用户与设备绑定</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)checkAndBindDeviceToken:(NSData *)<em>deviceToken</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deviceToken</em></dt>
+			<dd><p>设备的DeviceToken</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>检测并绑定设备-用于每次登陆时候的检测操作：1、通知其他设备下线，2、若未绑定则用户与设备绑定</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BmobUserManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/countNearbyWithKey:location:block:" title="countNearbyWithKey:location:block:"></a>
+	<h3 class="subsubtitle method-title">countNearbyWithKey:location:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>查看附近的人总数</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)countNearbyWithKey:(NSString *)<em>key</em> location:(BmobGeoPoint *)<em>location</em> block:(BmobIntegerResultBlock)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>key</em></dt>
+			<dd><p>存放位置的列</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>location</em></dt>
+			<dd><p>地理位置</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>返回查询结果和错误信息</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>查看附近的人总数</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BmobUserManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/currentUser" title="currentUser"></a>
+	<h3 class="subsubtitle method-title">currentUser</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>获取当前登陆用户对象</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BmobChatUser *)currentUser</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>当前登陆用户对象</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>获取当前登陆用户对象</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BmobUserManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteContactWithUid:" title="deleteContactWithUid:"></a>
+	<h3 class="subsubtitle method-title">deleteContactWithUid:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>删除指定联系人&ndash;不携带回调</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)deleteContactWithUid:(NSString *)<em>targetId</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>targetId</em></dt>
+			<dd><p>指定联系人的id</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>删除指定联系人&ndash;不携带回调</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BmobUserManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteContactWithUid:block:" title="deleteContactWithUid:block:"></a>
+	<h3 class="subsubtitle method-title">deleteContactWithUid:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>删除指定联系人 默认成功之后删除本地好友、会话表、消息表中与目标用户有关的数据</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)deleteContactWithUid:(NSString *)<em>targetId</em> block:(BmobBooleanResultBlock)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>targetId</em></dt>
+			<dd><p>指定联系人的id</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>删除后的回调</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>删除指定联系人 默认成功之后删除本地好友、会话表、消息表中与目标用户有关的数据</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BmobUserManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/loginWithUsername:password:block:" title="loginWithUsername:password:block:"></a>
+	<h3 class="subsubtitle method-title">loginWithUsername:password:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>登陆-默认登陆成功之后会检测当前账号是否绑定过设备</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)loginWithUsername:(NSString *)<em>username</em> password:(NSString *)<em>password</em> block:(BmobBooleanResultBlock)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>username</em></dt>
+			<dd><p>用户名</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>password</em></dt>
+			<dd><p>密码</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>登陆的结果</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>登陆-默认登陆成功之后会检测当前账号是否绑定过设备</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BmobUserManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/logout" title="logout"></a>
+	<h3 class="subsubtitle method-title">logout</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>退出登陆</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)logout</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>退出登陆</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BmobUserManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/queryCurrentContactArray:" title="queryCurrentContactArray:"></a>
+	<h3 class="subsubtitle method-title">queryCurrentContactArray:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>获取当前用户的好友列表 ,默认按照更新时间降序排列</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)queryCurrentContactArray:(BmobObjectArrayResultBlock)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>当前用户的好友列表</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>获取当前用户的好友列表 ,默认按照更新时间降序排列</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BmobUserManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/queryNearbyWithKey:location:page:block:" title="queryNearbyWithKey:location:page:block:"></a>
+	<h3 class="subsubtitle method-title">queryNearbyWithKey:location:page:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>查看附近的人</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)queryNearbyWithKey:(NSString *)<em>key</em> location:(BmobGeoPoint *)<em>location</em> page:(NSInteger)<em>page</em> block:(BmobObjectArrayResultBlock)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>key</em></dt>
+			<dd><p>存放位置的列</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>location</em></dt>
+			<dd><p>地理位置</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>page</em></dt>
+			<dd><p>页码，从0开始</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>返回查询的数组和错误信息</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>查看附近的人</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BmobUserManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/queryUserByName:block:" title="queryUserByName:block:"></a>
+	<h3 class="subsubtitle method-title">queryUserByName:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>模糊查询指定名称的用户:默认过滤掉本人和好友</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)queryUserByName:(NSString *)<em>name</em> block:(BmobObjectArrayResultBlock)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>name</em></dt>
+			<dd><p>查询的名称</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>查询的结果</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>模糊查询指定名称的用户:默认过滤掉本人和好友</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BmobUserManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 Bmob. All rights reserved. (Last updated: 2014-07-28)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>
